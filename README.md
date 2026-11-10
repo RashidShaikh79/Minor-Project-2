@@ -1,96 +1,90 @@
-# 🛒 SmartCart – Customer Analysis
+# 🛒 SmartCart – Customer Segmentation
 
 ## 📌 Project Overview
-SmartCart is a Data Analysis minor project developed using Python. The main objective of this project is to analyze customer data, understand customer purchasing behavior, and identify useful business insights.
 
-This project uses data analysis and visualization techniques to explore customer demographics, income, marital status, product spending, and purchasing patterns.
+SmartCart is a Python-based Data Analysis and Unsupervised Machine Learning minor project. It focuses on analyzing customer data and grouping customers based on their purchasing behavior, income, and other characteristics.
 
 ## 🎯 Objectives
+
 - Analyze customer purchasing behavior.
-- Understand customer demographics.
-- Explore customer income and spending patterns.
-- Identify customer trends and insights.
-- Visualize data using graphs and charts.
-- Support better business decision-making.
+- Identify different customer segments.
+- Understand customer spending patterns.
+- Group similar customers using clustering algorithms.
+- Generate useful business insights.
 
 ## 🛠️ Technologies Used
+
 - Python
 - Jupyter Notebook
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 
-## 📂 Project Structure
+## 🤖 Machine Learning Techniques Used
 
-```text
-Minor-Project-2/
-│
-├── smartcart.ipynb
-├── smartcart_customers.csv
-└── README.md
-```
+This project uses **Unsupervised Machine Learning** techniques:
+
+1. Feature Engineering
+2. Outlier Detection and Handling
+3. Feature Encoding
+4. Feature Scaling
+5. Elbow Method
+6. Silhouette Score
+7. Clustering
+8. K-Means Clustering
+9. Agglomerative Clustering
 
 ## 📊 Dataset Description
 
-The project uses the `smartcart_customers.csv` dataset, which contains customer-related information.
+**Dataset:** `smartcart_customers.csv`
 
-Some important columns include:
-- ID
+The dataset contains customer information such as:
+
 - Year_Birth
 - Education
 - Marital_Status
 - Income
 - Kidhome
 - Teenhome
-- Dt_Customer
 - Recency
 - MntWines
 - MntFruits
 - MntMeatProducts
 - MntFishProducts
 
-## ⚙️ Installation and Setup
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/RashidShaikh79/Minor-Project-2.git
-```
-
-2. Open the project folder.
-
-3. Install the required libraries:
-
-```bash
-pip install pandas matplotlib seaborn jupyter
-```
-
-4. Open Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-5. Open `smartcart.ipynb` and run the cells.
-
 ## 📈 Project Workflow
 
-1. Data Collection
-2. Data Loading
-3. Data Cleaning
-4. Exploratory Data Analysis (EDA)
-5. Data Visualization
-6. Customer Behavior Analysis
-7. Insights and Conclusion
+1. Data Loading and Exploration
+2. Data Cleaning and Preprocessing
+3. Feature Engineering
+4. Outlier Handling
+5. Encoding and Scaling
+6. Finding Optimal Clusters
+7. K-Means and Agglomerative Clustering
+8. Cluster Evaluation and Visualization
+9. Customer Segmentation
 
-## 🎓 Project Type
-Minor Project
+## 🎓 Project Details
+
+**Project Name:** SmartCart – Customer Segmentation
+
+**Project Type:** Minor Project
+
+**Domain:** Data Analytics & Machine Learning
+
+**Learning Type:** Unsupervised Learning
+
+**Algorithms:** K-Means, Agglomerative Clustering, Elbow Method
 
 ## 👨‍💻 Developed By
-**Rashid Shaikh**
+
+**Md Rashid Alam**
 
 ## 📝 Conclusion
-SmartCart helps in understanding customer behavior through Python-based data analysis and visualization. It provides useful insights into customer demographics and purchasing patterns, which can help businesses make better decisions.
+
+SmartCart uses Unsupervised Machine Learning to segment customers based on their characteristics and purchasing behavior. It helps identify customer groups and provides useful insights for better business decision-making.
 
 ---
 
